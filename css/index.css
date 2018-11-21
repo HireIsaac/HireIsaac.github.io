@@ -1,0 +1,23 @@
+
+body {
+    background-image: url("../img/ales-krivec-27947-unsplash.jpg"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+h1,h4,ul {
+    width:100%;
+  
+}
+h1{
+    padding-top:135px;
+}
+h4{
+}
+
+ul {
+    padding-top: 80px;
+    list-style-type: none;
+}
+li{
+    display:inline-block;
+}
