@@ -128,6 +128,15 @@ body > .block1 {
     margin-bottom:50px;
 }
 
+
+@media only screen and (max-width:768px) {
+    .block5 p, .block4 h3, .block4 p {
+    margin-left:2%;
+    margin-right:2%;
+    padding:10px;
+    }
+}
+
 /*SECTION Headers:*/
 .container, .container .row {
     min-width: 100%;
@@ -150,6 +159,13 @@ body > .block1 {
     padding-right:70px;
 }
 
+@media only screen and (max-width:768px) {
+    .container > .row > h1 > span {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 
 
 .block3 .row {
@@ -167,9 +183,33 @@ body > .block1 {
 /*Logical blocks:*/
 
 .desc, .coverImg {
-    height: 700px;
+    min-height: 700px;
     
 }
+
+@media only screen and (max-width:992px){
+    .desc, .coverImg {
+        min-height: 600px;
+    }
+
+    .desc {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .desc, .coverImg {
+        min-height: 500px;
+    }
+    .desc {
+        padding: 10px;
+    }
+    .coverImg{
+        display:none;
+    }
+}
+
+
 
 .coverImg {
     padding: 0px;
@@ -192,6 +232,7 @@ body > .block1 {
     width:auto;
     height:100%;
     transition:all 0.5s;
+    
     
 }
 

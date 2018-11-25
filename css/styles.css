@@ -2,6 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight:bold;
+}
+
 
 
 
@@ -40,15 +45,37 @@ body {
     padding-right:10px;
 }
 
+@media only screen and (max-width:768px) {
+    .vChar{
+        display:none !important;
+    }
+
+    li{
+        width:100%;
+        
+    }
+}
+
 
 
 iframe {
     overflow: hidden;
     overflow-y: hidden;
     width: 70%;
+    height:1200px;
     margin-left: 15%;
     margin-top:50px;
     margin-bottom:50px;
 }
+@media only screen and (max-width:768px) {
+    iframe {
+        width:90%;
+        margin-left:5%;
+        height:700px;
+    
+    }
+}
+
+
 
 
